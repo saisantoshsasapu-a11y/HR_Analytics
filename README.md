@@ -1,6 +1,7 @@
 ﻿# HR_Analytics
 
-The goal of project is to analyze employees data to uncover key factors influencing attrition, satisfaction, performance and to build an interactive HR Dashboard using Power BI and Python.
+The goal of project is to analyze data to uncover key factors influencing attrition, satisfaction, performance and to build an interactive HR Dashboard using Power BI and Python.
+
 
 
 
