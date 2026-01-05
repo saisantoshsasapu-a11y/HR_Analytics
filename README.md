@@ -1,73 +1,69 @@
-📊 HR Analytics Dashboard
-Project Overview
+📊 HR Data Analytics Dashboard Project
+Project Objective
 
-This project analyzes employee data to uncover patterns in attrition, job satisfaction, work-life balance, and salary trends. The insights help HR make data-driven decisions to improve employee retention, engagement, and overall organizational performance. The project also identifies key factors influencing attrition, satisfaction, and performance and builds an interactive HR Dashboard using Power BI and Python to visualize actionable insights for management.
+To deliver data-driven HR insights by analyzing employee workforce data and building an interactive HR Analytics Dashboard that helps organizations reduce attrition, improve employee engagement, and optimize workforce planning.
 
-Dataset Overview
+📌 Executive Summary
 
-Source: Kaggle HR Analytics Dataset
+This project analyzes employee data to identify key drivers of attrition, satisfaction, work-life balance, and compensation trends. Using Power BI and Python, the project transforms raw HR data into actionable insights that HR leaders and management can use to improve retention strategies, employee experience, and organizational performance.
 
-File Name: restaurant_sales.csv
+🗂 Dataset Overview
 
-Total Records: 1,480 employees
+Source: Kaggle – HR Analytics Dataset
 
-Columns Included:
-EmpID, Age, AgeGroup, Attrition, Department, EducationField, EmployeeNumber, Gender, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, SalarySlab, OverTime, TotalWorkingYears, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager
+Total Employees: 1,480
 
-Columns capture employee demographics, job characteristics, satisfaction, performance indicators, and engagement metrics.
+Key HR KPIs:
 
-Key Insights
-1️⃣ Attrition Analysis
-
-Overall Attrition Rate: 16.08%
-
-Highest attrition in [Department with highest attrition if available]
-
-Correlated with WorkLifeBalance, JobSatisfaction, and OverTime
-
-2️⃣ Income & Salary
+Attrition Rate: 16.08%
 
 Average Monthly Income: ₹6,500
 
-Positive correlation between JobLevel and MonthlyIncome
+Gender Ratio: 60.07% Male | 39.93% Female
 
-Most employees fall under [SalarySlab distribution]
+Key Features Included:
+Employee demographics, job roles, income details, engagement scores, work-life balance, tenure, promotion history, and managerial relationships.
 
-3️⃣ Gender Distribution
+📊 Key Business Questions Answered
 
-Male: 60.07% | Female: 39.93%
+Which factors most strongly influence employee attrition?
 
-Attrition trends analyzed across gender for targeted HR interventions
+How do job satisfaction and work-life balance impact retention?
 
-4️⃣ Work-Life & Engagement
+Which departments and roles require immediate HR intervention?
 
-Job Satisfaction and Work-Life Balance are key predictors of retention
+How does salary structure affect employee stability?
 
-Employees with higher JobInvolvement tend to stay longer
+What workforce segments show high retention potential?
 
-5️⃣ Experience & Tenure
+💡 Key Insights & Business Impact
+Area	Insight	Business Value
+Attrition	Overall attrition at 16.08%, higher among employees with overtime and low satisfaction	Enables targeted retention programs
+Compensation	Income increases with job level; lower salary slabs show higher churn	Supports pay structure optimization
+Engagement	High job involvement & satisfaction significantly reduce attrition	Improves engagement strategy focus
+Work-Life Balance	Poor WLB is a leading attrition driver	Guides policy & workload changes
+Tenure	Longer time with same manager lowers attrition	Highlights leadership stability importance
+Gender Mix	Balanced workforce with role-based attrition variations	Supports inclusive HR planning
+📈 Dashboards & Visualizations
 
-Average tenure highlights experience retention patterns
+Attrition Risk Heatmap – Correlation of HR factors
 
-Longer YearsWithCurrManager reduces attrition risk
+Department-wise Attrition Analysis
 
-Visualizations Included
+Salary Slab & Income Distribution
 
-Heatmap: Correlation between Attrition, JobSatisfaction, MonthlyIncome, WorkLifeBalance
+Gender Composition & Attrition Trends
 
-Bar Graphs: Department-wise attrition, salary distribution, gender ratio
+Tenure & Promotion Timelines
 
-Line Charts: Employee tenure trends and promotion timelines
+📁 Visualization outputs are available in the Visualizations/ folder.
 
-All visualization images are included in the Visualizations/ folder.
+🛠 Tools & Technologies
 
-Tools & Technologies
+Power BI – KPI dashboards, DAX measures, slicers
 
-Power BI: Interactive dashboards and KPIs
+Python – Pandas, Matplotlib, Seaborn, Plotly
 
-Python: Pandas, Seaborn, Matplotlib, Plotly for data analysis & visualizations
+SQL – Data cleaning and transformation
 
-SQL: Data extraction and transformation
-
-GitHub: Version control and portfolio hosting
-
+GitHub – Version control and portfolio showcase
