@@ -18,7 +18,7 @@ This project focuses on analyzing employee workforce data to identify key patter
 - Total Records: 1,480 employees
 - Average Monthly Income: ₹6,500
 - Overall Attrition Rate: 16.08%
-- Gender Distribution:
+- Gender Distribution
 - Male: 60.07% & Female: 39.93%
 
 **Key Columns:** `EmpID`, `Age`, `AgeGroup`, `Attrition`, `Department`, `EducationField`, `Gender`, `JobRole`, `JobLevel`, `JobInvolvement`, `JobSatisfaction`, `MonthlyIncome`, `SalarySlab`, `OverTime`, `WorkLifeBalance`,
@@ -71,4 +71,5 @@ All visualization images are stored in the Visualizations/ folder.
 - **Jupyter Notebook / VS Code** – Development environment  
 
 ---
+
 
