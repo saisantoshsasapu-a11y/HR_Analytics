@@ -1,69 +1,74 @@
-📊 HR Data Analytics Dashboard Project
-Project Objective
+# 📊HR Data Analytics Dashboard Project
 
-To deliver data-driven HR insights by analyzing employee workforce data and building an interactive HR Analytics Dashboard that helps organizations reduce attrition, improve employee engagement, and optimize workforce planning.
+Analyze restaurant sales data to uncover trends, identify top-performing products and locations & provide actionable insights to maximize revenue and optimize operatio
+## Project Objective
+This project focuses on analyzing employee workforce data to identify key patterns related to attrition, job satisfaction, work-life balance, and salary trends.The objective is to support HR teams with data-driven insights that help improve employee retention, engagement, and overall organizational performance.
+                An interactive HR Dashboard is developed using Power BI, supported by Python-based analysis, to visualize and communicate actionable insights to management
 
-📌 Executive Summary
+## 📌 **Project Overview**
 
-This project analyzes employee data to identify key drivers of attrition, satisfaction, work-life balance, and compensation trends. Using Power BI and Python, the project transforms raw HR data into actionable insights that HR leaders and management can use to improve retention strategies, employee experience, and organizational performance.
+- Identify key factors influencing employee attrition
+- Analyze job satisfaction, work-life balance, and income trends.
+- Understand workforce distribution across gender, departments, and job roles.
+- Build a professional HR Analytics Dashboard using Power BI and Python
 
-🗂 Dataset Overview
+## 🗂 **Dataset**
+- **Source:**  [Kaggle HR Analytics Dataset](https://www.kaggle.com/datasets/saadharoon27/hr-analytics-dataset/data)  
+- **File Name:** `HR_Analytics.xlsx`
+- Total Records: 1,480 employees
+- Average Monthly Income: ₹6,500
+- Overall Attrition Rate: 16.08%
+- Gender Distribution:
+- Male: 60.07% & Female: 39.93%
 
-Source: Kaggle – HR Analytics Dataset
+**Key Columns:** `EmpID`, `Age`, `AgeGroup`, `Attrition`, `Department`, `EducationField`, `Gender`, `JobRole`, `JobLevel`, `JobInvolvement`, `JobSatisfaction`, `MonthlyIncome`, `SalarySlab`, `OverTime`, `WorkLifeBalance`,
+`TotalWorkingYears`, `YearsAtCompany`, `YearsInCurrentRole`, `YearsSinceLastPromotion`, `YearsWithCurrManager`
 
-Total Employees: 1,480
 
-Key HR KPIs:
+---
 
-Attrition Rate: 16.08%
+## 💡 **Key Insights**
 
-Average Monthly Income: ₹6,500
+Attrition Rate: 16.08%, influenced by work-life balance, job satisfaction, and overtime
 
-Gender Ratio: 60.07% Male | 39.93% Female
+Income Analysis: Monthly income increases with job level and experience
 
-Key Features Included:
-Employee demographics, job roles, income details, engagement scores, work-life balance, tenure, promotion history, and managerial relationships.
+Gender Analysis: Attrition trends analyzed across male and female employees
 
-📊 Key Business Questions Answered
+Work-Life Balance: Poor balance and overtime significantly increase attrition risk
 
-Which factors most strongly influence employee attrition?
+Tenure & Experience: Longer tenure and consistent managerial relationships reduce attrition
 
-How do job satisfaction and work-life balance impact retention?
+---
+## 📈 **Visualizations**
 
-Which departments and roles require immediate HR intervention?
+The project includes the following visual insights:
 
-How does salary structure affect employee stability?
+Heatmap: Correlation between attrition, income, satisfaction and work-life balance
 
-What workforce segments show high retention potential?
+Bar Charts:
 
-💡 Key Insights & Business Impact
-Area	Insight	Business Value
-Attrition	Overall attrition at 16.08%, higher among employees with overtime and low satisfaction	Enables targeted retention programs
-Compensation	Income increases with job level; lower salary slabs show higher churn	Supports pay structure optimization
-Engagement	High job involvement & satisfaction significantly reduce attrition	Improves engagement strategy focus
-Work-Life Balance	Poor WLB is a leading attrition driver	Guides policy & workload changes
-Tenure	Longer time with same manager lowers attrition	Highlights leadership stability importance
-Gender Mix	Balanced workforce with role-based attrition variations	Supports inclusive HR planning
-📈 Dashboards & Visualizations
+Department-wise attrition
 
-Attrition Risk Heatmap – Correlation of HR factors
+Salary slab distribution
 
-Department-wise Attrition Analysis
+Gender composition
 
-Salary Slab & Income Distribution
+Line Charts:
 
-Gender Composition & Attrition Trends
+Employee tenure trends
 
-Tenure & Promotion Timelines
+Promotion and career progression analysis
 
-📁 Visualization outputs are available in the Visualizations/ folder.
+All visualization images are stored in the Visualizations/ folder.
 
-🛠 Tools & Technologies
+---
 
-Power BI – KPI dashboards, DAX measures, slicers
+## ⚙️ **Tools & Technologies**
+- **Python 3.9+** – Data analysis & visualization  
+- **Pandas / NumPy** – Data cleaning and manipulation  
+- **Matplotlib / Seaborn** – Data visualization  
+- **Jupyter Notebook / VS Code** – Development environment  
 
-Python – Pandas, Matplotlib, Seaborn, Plotly
+---
 
-SQL – Data cleaning and transformation
-
-GitHub – Version control and portfolio showcase
